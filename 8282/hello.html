@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+
+    <link rel="stylesheet" href="hello.css">
+    <style>
+        body {
+            cursor: url('media/face.png'), auto;
+        }
+    </style>
+</head>
+
+<body>
+
+
+        <h1 class="nom"> (h1 class="name") [Park] Sojung (h1)</h1>
+        <p class="ex">.name: font-size: 27px;</p>
+        <a href="https://www.google.co.kr/maps/place/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C/@35.9181917,123.062473,7z/data=!3m1!4b1!4m6!3m5!1s0x35796f2596138247:0x7d37fd902cb76142!8m2!3d37.4562557!4d126.7052062!16zL20vMGh2MWI?hl=ko&entry=ttu" target="_blank"><p class="top">top: 37.4562557; left: 126.7052062;</p></a>
+        <a href="index.html"><img src="media/moi.png" class="moi"></a>
+        <a href="https://www.instagram.com/82_82.sojung/"><p class="ins">• go insta</p></a>
+        <a href="mailto:sojung1455@gamil.com"><p class="mail">• Contact</p></a>
+        
+    
+    
+        <script>
+            const clock=document.querySelector('.main-clock');
+        
+        function getTime() {
+          const time = new Date();
+          const minutes = time.getMinutes();
+          const hours = time.getHours();
+          const seconds = time.getSeconds();
+          //clock.innerHTML = hour + ":" + minutes + ":" + seconds;
+          clock.innerHTML = `${    /* 시간이 두자리로 나오게 하는 명령문 */
+            hours <10 ? `0${hours}` : hours
+            }
+            :${    
+            minutes < 10 ? `0${minutes}` : minutes
+            }
+            :${
+            seconds < 10 ? `0${seconds}` : seconds
+            }`
+        }
+        
+        function init(){
+            getTime();
+            setInterval(getTime, 1000);   /* 1초마다 시계 업데이트 */
+        }
+        
+        init();
+        
+        </script>
+
+
+
+
+
+
+</body>
+</html>

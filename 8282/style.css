@@ -1,0 +1,322 @@
+
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url(fonts/Pretendard-Black.otf);
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url(fonts/Pretendard-Bold.otf);
+}
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url(fonts/Pretendard-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url(fonts/Pretendard-SemiBold.otf);
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url(fonts/Pretendard-Regular.otf);
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -9999;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+z-index: -999;
+position: relative;
+}
+
+header{
+    flex: none;
+    height: 5vh;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding: 0.2vw;
+}
+@media screen and (max-width:850px){
+    header{
+        background-color: #212121;
+    }
+}
+
+main{
+    display: flex;
+    position: relative;
+flex: 1;
+z-index: -2;
+}
+
+.eyess{
+    width: 4vw;
+    margin: 10px;
+    margin-left: 55px;
+    position: absolute;
+}
+@media screen and (max-width:850px){
+    .eyess{
+        width: 0vw;
+    }
+}
+.name{
+    font-family: Pretendard-Medium;
+    font-size: 1em;
+    margin-left: 10vw;
+    position: absolute;
+    color: white;
+}
+
+@media screen and (max-width:850px){
+    .name{
+        font-size: 0em;
+    }
+}
+
+nav{
+    position: absolute;
+    margin-left: 79vw;
+    margin-top: 0.4vw;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.home{
+    width: 1.3em;
+    margin: 0.5vw;
+
+}
+@media screen and (max-width:850px){
+    .home{
+        width: 0em;
+    }
+}
+.ins{
+    width: 1.3em;
+    margin: 0.5vw;
+}
+@media screen and (max-width:850px){
+    .ins{
+        width: 0em;
+    }
+}
+.mail{
+    width: 1.3em;
+    margin: 0.5vw;
+}
+@media screen and (max-width:850px){
+    .mail{
+        width: 0em;
+    }
+}
+.fr{
+    width: 1.5em;
+    margin: 0.5vw;
+   
+}
+@media screen and (max-width:850px){
+    .fr{
+        width: 0em;
+    }
+}
+
+.clock-location{
+    font-family: 'Pretendard-Medium';
+    font-size: 0.7em;
+    color: white;
+    margin: 0.5vw;
+    margin-top: 0vw;
+   /* margin-left: 5vw;
+    text-align: center;*/
+    position: relative;
+}
+@media screen and (max-width:850px){
+    .clock-location{
+        font-size: 0em;
+    }
+}
+
+
+
+.group{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 80%;
+}
+
+.group .icon{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    /*z-index: 2;*/
+    top: 9vw;
+    left: 20vw;
+    /*transform: translate(-50%,-50%);*/
+    
+}
+.icon, .hello, .pdf{
+    position: absolute;
+    cursor: grab;
+   
+}
+
+.icon img{
+    max-width: 100px;
+margin-bottom: 2px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+  
+}
+
+.icon p{
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    color: white;
+margin-top: 2px;
+    top: 60%;
+    left: 60%;
+
+}
+
+.group .pdf{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 13vw;
+    right: 6vw;
+    padding: 2vw;
+}
+
+.pdf img{
+    max-width: 90px;
+    margin-bottom: 2px;
+    margin: 0;
+    top: 50px;
+    left: 50px;
+}
+.pdf p{
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+    color: white;
+    margin-top: 2px;
+    top: 50px;
+    left: 50px;
+}
+
+.group .hello{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 2vw;
+    right: 6vw;
+}
+
+.hello img{
+    max-width: 100px;
+    margin-bottom: 2px;
+    margin: 0;
+    top: 50px;
+    left: 50px;
+}
+
+.hello p{
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    top: 50px;
+    left: 50px;
+
+}
+
+.pop{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    left: 16vw;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+
+.show{
+    display: block;
+}
+
+
+
+.red img{
+    width: 70vw;
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+
+}
+
+
+.close-btn{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 95, 87);
+    width: 1vw;
+    height: 1vw;
+    top: 2.9vw;
+    left: 2.8vw;
+    z-index: 999;
+}
+
+.eyes{
+    top: -10vw;
+    left: -5vw;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+    position: absolute;
+    align-items: center;
+    z-index: -1;}
+
+.eye { position: relative; left: 20vw; top: 10vw; width: 100px; height: 100px; margin: 0 25px; background: #fff; border-radius: 50%; } 
+.eye::before{
+    content: ''; position: absolute; top: 50px; left:25px; width:45px; height: 45px; background: #333; border-radius: 50%; transform: translate(-50%, -50%);
+}
+
+/* SMARTPHONE MODE PORTRAIT */
+@media screen and (orientation: portrait) {
+
+   
+
+}
+

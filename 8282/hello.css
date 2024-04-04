@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url(fonts/Pretendard-Black.otf);
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url(fonts/Pretendard-Bold.otf);
+}
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url(fonts/Pretendard-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url(fonts/Pretendard-SemiBold.otf);
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url(fonts/Pretendard-Regular.otf);
+}
+
+body {
+    cursor: url("media/face.png"), auto;
+    position:absolute;
+    width:100%;
+    height:100%;
+
+  }
+
+.nom{
+    font-family: 'Pretendard-Medium';
+    font-size: 25px;
+  
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+
+.ex{
+    font-family: 'Pretendard-Regular';
+    margin-left: 5vw;
+    margin-top: -5px;
+}
+
+.moi{
+    position: relative;
+    top: 20vw;
+    left: 80vw;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    font-family: 'Pretendard-Regular';
+    margin-left: 8.5vw;
+    margin-top: -5px;
+}
+
+.ins{
+    font-family: 'Pretendard-Medium';
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 19vw;
+}
+
+.mail{
+    font-family: 'Pretendard-Medium';
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 80vw;
+    margin-top: -200px;
+}
