@@ -38,6 +38,11 @@ body {
     margin-top: 1vw;
 }
 
+#code{
+    font-family: monospace;
+    font-size: 10px;
+}
+
 .ex{
     font-family: 'Pretendard-Regular';
     margin-left: 5vw;
