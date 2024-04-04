@@ -31,13 +31,7 @@ html, body{
 
 }
 
-body {
-    cursor: url("media/face.png"), auto;
-    position:absolute;
-    width:100%;
-    height:100%;
 
-  }
 
 .container{
     display: flex;
