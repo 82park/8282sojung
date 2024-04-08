@@ -323,7 +323,15 @@ margin-top: 2px;
 /* SMARTPHONE MODE PORTRAIT */
 @media screen and (orientation: portrait) {
 
-   
+  
+        .desktop-view {
+            display: none; /* 컴퓨터 화면에서는 숨김 */
+        }
+    
+        .mobile-view {
+            display: block; /* 핸드폰 화면에서는 표시 */
+        }
+    }
 
-}
+
 
