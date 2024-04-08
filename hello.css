@@ -25,6 +25,10 @@
     font-family: 'terminal-grotesque';
     src: url(fonts/terminal-grotesque-webfont.ttf);
 }
+@font-face {
+    font-family: 'RobotoMono-Variable';
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
 
 
 
@@ -38,7 +42,7 @@ body {
   }
 
 .nom{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     font-size: 25px;
     color: #cccccb;
     margin-left: 7vw;
@@ -46,12 +50,12 @@ body {
 }
 
 #code{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     font-size: 10px;
 }
 
 .ex{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     margin-left: 7vw;
     margin-top: -1vw;
     color: #d6b97d;
@@ -59,7 +63,7 @@ body {
 }
 
 #info{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     font-size: 12px;
     color: #b5cda8;
 }
@@ -76,13 +80,13 @@ a{
 }
 
 .top{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     margin-left: 9.8vw;
     margin-top: -13px;
 }
 
 .ins{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     color: #62beeb;
     font-size: 14px;
     text-decoration: underline;
@@ -91,7 +95,7 @@ a{
 }
 
 .mail{
-    font-family: 'monospace';
+    font-family: 'RobotoMono-Variable';
     color: #62beeb;
     font-size: 14px;
     text-decoration: underline;
